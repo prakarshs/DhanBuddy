@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: DhanBuddy-AuthService
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/
+      database: authdb
+  server:
+    port:
+      8080
+
